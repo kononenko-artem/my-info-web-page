@@ -1,7 +1,7 @@
 html{
     height: 100%;
     width: 100%;
-    background-color:rgb(174, 217, 255);
+    background: linear-gradient(0deg, rgb(47, 36, 255) 0%, rgb(74, 74, 255) 35%, rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,10 +10,11 @@ html{
 .wrapper{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
     padding: 60px;
-    justify-content: space-between;
     position: relative;
-    background-color:rgb(119, 189, 255);
+    background-color:rgb(100, 180, 254);
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 40px;
@@ -22,7 +23,7 @@ html{
 }
 
 .my-info-section{
-    margin-left: 20px;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,11 +33,19 @@ html{
     border-style: none solid none none;
     border-width: 1px;
     border-color: black;
-    
+}
+
+.my-name{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .my-photo{
     border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .telegram-icon{
@@ -77,4 +86,55 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.my-expectations-section{
+    width: 33%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 40px;
+    
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: black;
+}
+
+.exp-header{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.list{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.list-elem{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.my-experience-section{
+    width: 33%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 40px;
+}
+
+.experience-section-header{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
 }
