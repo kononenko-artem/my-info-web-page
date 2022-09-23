@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(174, 217, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    justify-content: space-between;
+    position: relative;
+    background-color:rgb(119, 189, 255);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.my-info-section{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 40px;
+    
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: black;
+    
+}
+
+.my-photo{
+    border-radius: 50%;
+}
+
+.telegram-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.telegram-link{
+    width: 60px;
+    height: 60px;
+}
+
+.inst-icon{
+    width: 56px;
+    height: 56px;
+}
+
+.inst-link{
+    margin-top: 2px;
+    margin-left: 24px;
+    width: 56px;
+    height: 56px;
+}
+
+.facebook-icon{
+    width: 56px;
+    height: 56px;
+}
+
+.facebook-link{
+    margin-top: 2px;
+    margin-left: 24px;
+    width: 52px;
+    height: 52px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
